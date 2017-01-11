@@ -1,0 +1,45 @@
+#body {
+	/*background-image: url(img/night.jpg);
+	background-clip: content-box;
+*/
+}
+
+
+
+#main {
+
+	margin: 0 auto;
+	width: 50%;
+
+}
+
+#title {
+	font-size: 1.7em;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding: 2% 0;
+}
+
+#weight {
+	margin-right: 25px;
+	margin-bottom: 10px;
+}
+
+#planetSelect {
+	display: inline-block;
+	margin: 50px 10px;
+}
+
+#submit {
+	border-radius: 3px;
+	background-color: lightgrey;
+
+}
+
+.endWeight {
+	padding: 10px 10px;
+	background-color: lightgrey;
+	border-radius: 4px;
+
+}
