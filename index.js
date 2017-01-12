@@ -42,14 +42,14 @@ var planets = [
 for(var i = 0; i < planets.length; i++) {
   var newOption = document.createElement("option");
   newOption.innerText = planets[i].planet;
-  newOption.id = planets[i].planet; //not necessary
-  newOption.value = planets[i].gravity; //not necessary
+  newOption.id = planets[i].planet; //not necessary, creates id for new option
+  newOption.value = planets[i].gravity; //not necessary, creates value for new option
   planetList.appendChild(newOption);
 
 };
 
 
-//Create a function that will be called when the user clicks on the `button` element you added to your HTML. UNFINISHED
+//Create a function that will be called when the user clicks on the `button` element you added to your HTML.
 calculateButton.onclick = function calculateWeight() {
   var userWeight = document.getElementById("weight").value;
   var selectIndex = document.getElementById('planetSelect').selectedIndex;
